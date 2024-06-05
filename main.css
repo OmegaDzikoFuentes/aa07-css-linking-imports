@@ -1,0 +1,199 @@
+.button {
+    position: absolute;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 3px;
+    z-index: 2;
+    /* Ensure buttons are above the navigation bar */
+}
+
+.button.top-left {
+    top: 10px;
+    /* Adjust top position as needed */
+    left: 10px;
+    /* Adjust left position as needed */
+}
+
+.button.top-right {
+    top: 10px;
+    /* Adjust top position as needed */
+    right: 10px;
+    /* Adjust right position as needed */
+}
+
+.sign-in {
+    position: absolute;
+    top: 10px;
+    /* Adjust top position as needed */
+    right: 120px;
+    /* Adjust right position as needed */
+    color: blue;
+    /* Adjust text color as needed */
+    text-decoration: underline;
+    /* Underline the link text */
+    z-index: 2;
+    /* Ensure buttons are above the navigation bar */
+}
+
+.top-nav {
+    position: absolute;
+    top: 40px;
+    /* Adjust top position to be below the buttons */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px 20px;
+    width: 100%;
+    border: 2px solid black;
+    /* Add black border */
+    z-index: 1;
+    /* Ensure navigation bar is below the buttons */
+}
+
+.top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.top-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.top-nav ul li a {
+    color: #0000ff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.top-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav__upper {
+    display: flex;
+    align-items: center;
+}
+
+.upper__left {
+    margin-right: 10px;
+}
+
+.upper__right {
+    margin-left: auto;
+}
+
+.top-nav {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-top: 2px solid #000;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.top-nav ul li {
+    margin-right: 20px;
+}
+
+.top-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.main__img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.grid {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.grid a {
+    display: block;
+    padding: 10px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer__left {
+    max-width: 50px;
+    height: auto;
+}
+
+.footer__right {
+    display:
